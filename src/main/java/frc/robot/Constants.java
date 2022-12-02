@@ -24,14 +24,14 @@ public final class Constants {
     // Ports on computer
     public static final int CONTROLLER_PORT = 0;
 
-    // Button Mapping
+    // Button Map
     public static final int INTAKE_BUTTON = 1;
-    public static final int OUTTAKE_BUTTON = 3;
-    public static final int ARM_UP_BUTTON = 6;
-    public static final int ARM_DOWN_BUTTON = 2;
+    public static final int OUTTAKE_BUTTON = 2;
+    public static final int ARM_UP_BUTTON = 5;
+    public static final int ARM_DOWN_BUTTON = 6;
 
     // Motor Rotation Speed
     public static final double INTAKE_SPEED = 0.7;
-    public static final double ARM_UP_SPEED = 0.4;
+    public static final double ARM_UP_SPEED = 0.7;
     public static final double ARM_DOWN_SPEED = -0.1;
 }

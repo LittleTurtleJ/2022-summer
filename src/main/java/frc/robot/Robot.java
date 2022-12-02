@@ -34,6 +34,7 @@ public class Robot extends TimedRobot {
     m_robotContainer = new RobotContainer();
 
     CommandScheduler.getInstance().setDefaultCommand(DriveTrain.getInstance(), new Drive());
+    CommandScheduler.getInstance().setDefaultCommand(Limelight.getInstance(), new UseLimelight());
     UsbCamera camera = CameraServer.startAutomaticCapture();
     // camera.setResolution(360, 240);
   }

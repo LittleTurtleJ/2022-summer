@@ -6,8 +6,8 @@ import edu.wpi.first.wpilibj.XboxController;
 // Class
 public class OI {
     // Class specific constants
-    private static final int DRIVE_THROTTLE_AXIS = 1;
-    private static final int DRIVE_TURN_AXIS = 2;
+    private static final int DRIVE_THROTTLE_AXIS = 1; // 1 For Xbox, 2 For Josh's
+    private static final int DRIVE_TURN_AXIS = 5; // 4 For Xbox, 5 For Josh's
     private static final double POWER = 5;
 
     private static OI oi;
