@@ -40,8 +40,11 @@ public class UseLimelight extends CommandBase {
     SmartDashboard.putNumber("LimeLight X", x);
     SmartDashboard.putNumber("LimeLight Y", y);
     SmartDashboard.putNumber("LimeLight Area", area);
+    if(x >= -0.2 && x <= 0.2){
+      return;
+    }
 
-    DriveTrain.getInstance().arcadeDrive(-y, x);
+    DriveTrain.getInstance().arcadeDrive(0, x);
   }
 
   // Called once the command ends or is interrupted.
